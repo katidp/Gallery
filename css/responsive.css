@@ -1,0 +1,74 @@
+@media screen and (max-width : 1024px) {
+	.wrapper {width: 100%; padding: 0 15px;}
+}
+
+@media screen and (max-width : 999px) {
+    #main-menu {margin: 0 0 0 350px;}
+
+    #intro .half-content{ width: 100%;}
+    #sbg .half-content{ width: 100%; padding-top: 30px}
+    .intro-info p{ padding:0 0 30px 0}
+}
+
+@media screen and (max-width : 899px) {
+	#footer-copyright {width: 100%; text-align: center;}
+
+	.site-logo {line-height: 50px;}
+
+	#main-menu-toggle {display: block;}
+	#main-menu {float: right; margin: 0;}
+	#main-menu > ul {position: fixed; left: 0; top: 74px; display: none; width: 100%; height: calc(100% - 50px); background: #fff; overflow: auto; -webkit-overflow-scrolling: touch; text-align: center;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#main-menu .level-0:not(.icon-fb) {width: 100%;line-height: 100% !important}
+	#main-menu .level-0:not(.icon-fb) > a {width: 100%; line-height: 100% !important; padding: 20px 0; font-size: 24px; }
+	#main-menu .level-0:not(.icon-fb):hover > a {color: #2e3f53; border-bottom: 3px solid #FFFFFF}
+	#main-menu .level-0.current-menu-item > a, #main-menu .level-0.current-menu-parent > a { color: #2e3f53 !important; border-bottom: 3px solid #FFFFFF}
+    .icon-fb a {margin-left:0}
+
+    .gallery-topic {width: 22%; margin: 0 3.5% 3.5% 0;}
+}
+
+@media screen and (max-width : 768px) {
+
+    .gallery-topic {width: 47.5%; margin: 0 0 30px 0;}
+	.gallery-topic:nth-child(6n) {margin-right: inherit;}
+	.gallery-topic:nth-child(2n) {float: right;}
+    .gallery-topic-item {height: 250px;}
+    .gallery-topic-icon {height: 250px;}
+
+}
+
+@media screen and (max-width : 640px) {
+
+}
+
+@media screen and (max-width : 599px) {
+    .site-logo a {font-size:18px;}
+    .site-logo a span { padding-left:80px}
+
+    .in-middle {width: 100%;}
+
+    .intro-title {padding: 60px 20px 60px 20px}
+
+    #story .storyimg, #story .storyimg2{ padding:0 0 20px 0; float:none; text-align: center; margin:0 auto}
+}
+
+@media screen and (max-width : 500px) {
+
+    .gallery-topic {width: 100%;}
+	.gallery-topic-item {height: 280px;}
+    .gallery-topic-icon {height: 280px;}
+
+}
+
+@media screen and (max-width : 479px) {
+
+}
+
+@media screen and (max-width : 374px) {
+
+
+}
